@@ -13,12 +13,12 @@ RUN apt-get -y -q install libegl1-mesa
 RUN apt-get -y -q install libglib2.0-0
 RUN apt-get -y -q install libpulse0
 RUN apt-get -y -q install usbutils
-RUN rm /opt/girder/libpirlib.so.1
-RUN rm /opt/girder/libpirlib.so.1.0
-RUN rm /opt/girder/libprb16lib.so.1
-RUN rm /opt/girder/libprb16lib.so.1.0
-RUN rm /opt/girder/libprb16lib.so.1.0.0 
-RUN rm /opt/girder/libprb16lib.so
+#RUN rm /opt/girder/libpirlib.so.1
+#RUN rm /opt/girder/libpirlib.so.1.0
+#RUN rm /opt/girder/libprb16lib.so.1
+#RUN rm /opt/girder/libprb16lib.so.1.0
+#RUN rm /opt/girder/libprb16lib.so.1.0.0 
+#RUN rm /opt/girder/libprb16lib.so
 RUN mkdir /opt/girder/qt/etc/xdg/Promixis
 EXPOSE 20000
 EXPOSE 80
