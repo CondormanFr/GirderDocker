@@ -1,13 +1,12 @@
 FROM debian:wheezy
 MAINTAINER Romain GOUYET "docker@gouyet.com"
-ENV REFRESHED_AT 2015-05-22
+ENV REFRESHED_AT 2015-05-23
 RUN echo "deb http://www.promixis.com/repo/debian/wheezy wheezy main" >> /etc/apt/sources.list
 RUN apt-get -y -q update
 RUN apt-get -y -q install wget
 RUN wget -O - http://www.promixis.com/repo/debian/wheezy/sales.key | apt-key add -
 RUN apt-get -y -q upgrade
 RUN apt-get --force-yes -y -q install girder
-
 RUN apt-get -y -q install libgl1-mesa-glx
 RUN apt-get -y -q install libpng12-0
 RUN apt-get -y -q install libegl1-mesa
