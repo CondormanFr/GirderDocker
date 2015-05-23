@@ -12,7 +12,7 @@ RUN apt-get -y -q install libpng12-0
 RUN apt-get -y -q install libegl1-mesa
 RUN apt-get -y -q install libglib2.0-0
 RUN apt-get -y -q install libpulse0
-RUN apt-get install usbutils
+RUN apt-get -y -q install usbutils
 RUN rm /opt/girder/libpirlib.so.1
 RUN rm /opt/girder/libpirlib.so.1.0
 RUN rm /opt/girder/libprb16lib.so.1
