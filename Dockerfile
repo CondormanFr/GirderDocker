@@ -14,7 +14,7 @@ RUN apt-get -y -q install libglib2.0-0
 RUN apt-get -y -q install libpulse0
 RUN apt-get -y -q install usbutils
 RUN mkdir /opt/girder/qt/etc/xdg/Promixis
-ADD Teleinfo/ /opt/girder/lua/
+ADD Teleinfo/ /opt/girder/lua/teleinfo
 EXPOSE 20000
 EXPOSE 80 
 #RUN mkdir /opt/girder/luaext
