@@ -1,0 +1,8 @@
+name = "Teleinfo Plugin"
+description = "Plugin Teleinfo to get the data from your powerline"
+backEndComponentManager = true
+backEndScriptName = "teleinfo.plugin"
+frontEndComponentManager = true
+frontEndIncludes = { }
+frontEndScriptName = "teleinfo/plugin.js"
+id=1028
