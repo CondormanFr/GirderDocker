@@ -16,7 +16,7 @@ RUN apt-get -y -q install usbutils
 RUN mkdir /opt/girder/qt/etc/xdg/Promixis
 ADD Teleinfo/ /opt/girder/lua/
 EXPOSE 20000
-EXPOSE 80
+EXPOSE 80 
 #RUN mkdir /opt/girder/luaext
 #VOLUME /opt/girder/luaext
 VOLUME /opt/girder/qt/etc/xdg/Promixis
