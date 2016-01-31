@@ -1,6 +1,6 @@
 FROM debian:wheezy
 MAINTAINER Romain GOUYET "docker@gouyet.com"
-ENV REFRESHED_AT 2015-10-01
+ENV REFRESHED_AT 2016-01-31
 RUN echo "deb http://www.promixis.com/repo/debian/wheezy wheezy main" >> /etc/apt/sources.list
 RUN apt-get -y -q update
 RUN apt-get -y -q install wget
